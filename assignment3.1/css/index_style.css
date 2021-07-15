@@ -1,0 +1,624 @@
+/** standard **/
+* 
+{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-family:"Alegreya Sans", "segoe ui light";
+    font-size: 17px;
+    box-sizing:border-box;
+}
+img
+{
+    max-width: 100%;
+}
+.clr{
+    clear: both;
+}
+
+
+/** Start Home **/
+
+.home
+{
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#fff;
+    overflow: hidden;
+
+}
+.home .navCont
+{
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.3);
+    overflow:hidden;
+    left: 0;
+    right: 0;
+    z-index: 1456456;
+}
+.home .navbar
+{
+    width: 80%;
+    margin: auto;
+}
+
+
+.home .navbar .logo img
+{
+    width: 180px;
+}
+
+.home .navbar .logo
+{
+    float: left;
+}
+
+.home .navbar .links
+{
+    float: right;
+
+}
+
+.home .navbar .links ul
+{
+    list-style: none;    
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.home .navbar .links li
+{
+    display:inline-block;
+    margin: 20px 15px;
+    font-size: 18px;
+}
+.home .navbar .links a:hover
+{
+    color: #8e7754;
+}
+
+.home .navbar .links a
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+
+}
+
+.links .show-menu {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: none;
+    float: right;
+}
+
+/*Hide checkbox*/
+.links input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+.links input[type=checkbox]:checked ~ #menu{
+    display: block;
+    float: left;
+}
+.home .icons
+{
+    background-color:rgb(219, 219, 219);
+    width: 40px;
+    position: fixed;
+    top:30%;
+    right: 0;
+    border-radius:3px 0 0 3px;
+    -webkit-border-radius:3px 0 0 3px;
+    -moz-border-radius:3px 0 0 3px;
+    -ms-border-radius:3px 0 0 3px;
+    -o-border-radius:3px 0 0 3px;
+}
+.home .icons img
+{
+    width: 20px;
+    display: block;
+    padding: 10px;
+    
+}
+.home .homePage .mouse
+{
+    margin-top: 10%;
+}
+.home .homePage .mouse img
+{
+    width: 50px;
+}
+
+.home .homePage
+{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+
+}
+.home .homePage .wellcome
+{
+    font-size: 25px;
+}
+.home .homePage h1
+{
+    font-size: 90px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+.home .homePage .description
+{
+    font-size: 30px;
+    padding-bottom: 30px;
+    line-height: 50px;
+}
+.home .homePage .btn-gold
+{
+    background-color: #8e7754;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 28px;
+    border: 1px solid #8e7754 ;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-right: 10px;
+}
+.home .homePage .btn-gold:hover ,.home .homePage .btn-trans:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.home .homePage .btn-trans{
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 28px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+/** End Home **/
+
+
+/** Start About **/
+.about
+{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+
+    
+}
+.about .img-about
+{
+    float: left;
+    width: 50%;
+} 
+
+.about .img-about img
+{
+    padding: 70px 0;
+}
+.about .about-content
+{
+margin:80px 0px 120px 50px;
+padding: 80px 0 ;
+float: right;
+width: 45%;
+text-align: left;
+
+}
+.about .about-content h2
+{
+    font-size: 32px;
+    color: #303030;
+    padding-bottom: 30px;
+    font-family: 'Alegreya', serif;
+}
+.about .about-content ul
+{
+    color: #686868;
+    list-style-type: '>';
+}
+.about .about-content li
+{
+    padding: 15px;
+}
+.about .about-content p
+{
+    line-height: 35px;
+    padding-bottom: 30px;
+    color: #686868;
+}
+
+/** End About **/
+/** Start Location **/
+.location
+{
+    width: 80%;
+    height: 85vh;
+    margin: auto;
+}
+.location-bg{
+    background-color: #f8f8f8;
+}
+.location .location-content
+{
+    float: left;
+    width: 45%;
+    padding-top: 200px;
+}
+.location .location-content h2
+{
+    font-size: 32px;
+    color: #303030;
+    padding-bottom: 30px;   
+    font-family: 'Alegreya', serif;
+
+}
+.location .location-content p
+{
+    line-height: 35px;
+    padding-bottom: 30px;
+    color: #686868;
+
+}
+.location .location-img
+{
+    float: right;
+    width: 45%;
+    padding-top: 100px;
+
+}
+
+/**End Location **/ 
+/** Start Baking **/
+.baking
+{
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+
+}
+.baking h2
+{
+    font-size: 32px;
+    color: #303030;
+    padding-bottom: 30px; 
+    font-family: 'Alegreya', serif;
+
+}
+.baking p
+{
+    line-height: 35px;
+    padding-bottom: 30px;
+    color: #686868;
+}
+.baking .baking-dec
+{
+    padding-bottom: 70px;
+}
+.baking .meal 
+{
+    width: 33.33%;
+    float:left ;
+}
+.baking .meal h3
+{
+    font-size: 22px;
+    padding: 20px;
+    color: #303030;
+    font-family: 'Alegreya', serif;
+}
+.baking .meal img
+{
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+/** End Baking **/
+
+/** start coockies **/
+.coockies-bg{
+    background-color: #f8f8f8;
+
+}
+.coockies-container
+{
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+}
+.coockies-container h2
+{
+    font-size: 32px;
+    color: #303030;
+    padding-bottom: 30px;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+.coockies-container p
+{
+        line-height: 35px;
+        padding-bottom: 30px;
+        color: #686868;
+        text-align: center;
+}
+
+.coockies-container .item 
+{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    margin-top: 1%;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #f8f8f8;
+    z-index: 1;
+}
+
+.coockies-container .item img
+{
+    transition: transform 1s 1s;
+}
+.coockies-container .item .caption
+{
+    background-color:rgba(142, 119, 84, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s , opacity 1s;
+    opacity: 0;
+}
+.coockies-container .item  h3
+{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgba(143, 109, 59, 0.5);
+    border-radius: 20px;
+    position: relative;
+    left: 110%;
+    transition: left 1s 2s;
+    font-size: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.coockies-container .item  p
+{
+    color: #fff;
+    font-size:20px;
+    position: relative;
+    left: 110%;
+    transition: left 1s 2.5s;
+}
+
+.item:hover .caption
+{
+    transform: rotate(360deg);
+    opacity: 1;
+}
+.item:hover img
+{
+    transform: scale(1.1);
+
+}
+.item:hover h3
+{
+    left: 0;
+}
+.item:hover p
+{
+    left: 0;
+}
+/** end coockies **/
+
+/** Start Info **/ 
+.info
+{
+    width: 80%;
+    height: 85vh;
+
+    margin: auto;
+}
+.info-bg
+{
+    background-color: #fff;
+}
+.info .contect-info
+{
+    float: left;
+    width: 45%;
+    padding-top: 80px;
+}
+.info .contect-info h2
+{
+    font-size: 32px;
+    color: #303030;
+    padding-top:20px ;
+    padding-bottom: 30px;   
+    font-family: 'Alegreya', serif;
+
+}
+.info .contect-info p
+{
+    line-height: 35px;
+    padding-bottom: 30px;
+    color: #686868;
+}
+.info .contect-info ul
+{
+    color: #686868;
+    list-style-type: '>';
+}
+.info .contect-info li
+{
+    padding: 15px;
+}
+.info .map-info
+{
+    float: right;
+    width: 50%;
+    padding-top: 80px;
+    text-align: left;
+}
+.info .map-info iframe
+{
+    width: 100%;
+    height: 500px;
+}
+/** End Info **/
+/** Start Details **/
+
+.details .top-details 
+{
+    
+    height: 60vh;
+    width: 80%;
+    color: #fff;
+    margin: auto;
+}
+.top-details-bg
+{
+    background-color: #403d38;
+}
+.details .top-details .col1
+{
+    width: 21%;
+    float: left;
+    padding: 20px;
+}
+.details .top-details .col1 h4 ,.details .top-details .col4 h4
+{
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-family: 'Alegreya', serif;
+
+}
+.details .top-details .col1 p , .details .top-details .col4 p
+{
+    line-height: 35px;
+    padding-bottom: 30px;
+    color: #969696;
+    font-size: 16px;
+}
+.details .top-details .col1 ul , .details .top-details .col4 ul
+{
+    list-style-type: '>';
+    color: #bdbdbd;
+
+}
+.details .top-details .col1 li 
+{
+    padding: 15px 15px 15px 10px;
+    border-bottom:rgba(255, 255, 255, 0.05) solid 1px;
+    font-size: 16px;
+
+
+}
+.details .top-details .col1 li:last-child 
+{
+    border: none;
+}
+.details .top-details .col4
+{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 22%;
+    float: left;
+    padding: 20px;
+}
+.details .top-details .col4 li
+{
+    padding: 15px 15px 15px 10px;
+    border-bottom:rgba(255, 255, 255, 0.05) solid 1px;
+    font-size: 16px;
+
+    
+}
+.details .top-details .col4 li:last-child
+{
+    border:none;
+}
+.details .top-details .col4 a
+{
+    color: #bdbdbd;
+    text-decoration: none;
+}
+.details .top-details .col4 a:hover
+{
+    color: #f8f8f8;
+}
+.details .bottom-details 
+{
+    height: 40vh;
+    text-align: center;
+    width: 80%;
+    color: #969696;
+    margin: auto;
+}
+.bottom-details-bg
+{   
+    background-color: #353330;
+}
+.details .bottom-details p
+{
+    font-size: 16px;
+}
+.details .bottom-details img
+{
+    width: 350px;
+    margin: 25px 0;
+}
+.details .bottom-details ul
+{
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+.details .bottom-details li 
+{
+    float: left;
+    padding: 15px;
+}
+.details .bottom-details a
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.details .bottom-details a:hover
+{
+    color: #8e7754;
+}
+/** End Details **/

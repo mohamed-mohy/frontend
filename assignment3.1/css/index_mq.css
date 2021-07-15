@@ -37,7 +37,7 @@
     /* End navbar */
     /* Start home */
     .home{
-        height: 50vh;
+        height:600px;
     }
     .home .homePage {
         width: 100%;
@@ -240,8 +240,8 @@
     }
     /* End navbar */
     /* Start home */
-    .home {
-    height: 50vh;
+    .home{
+        height:600px;
     }
     .home .homePage {
         width: 100%;
@@ -443,8 +443,8 @@
     }
     /* End navbar */
     /* Start home */
-    .home {
-    height: 50vh;
+    .home{
+        height:700px;
     }
     .home .homePage{
         width: 80%;

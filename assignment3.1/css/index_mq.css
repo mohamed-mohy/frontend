@@ -36,6 +36,9 @@
     }
     /* End navbar */
     /* Start home */
+    .home{
+        height: 50vh;
+    }
     .home .homePage {
         width: 100%;
     }

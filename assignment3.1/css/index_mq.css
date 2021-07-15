@@ -200,7 +200,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 600px) and (max-width:767px)
 {
     /* Start navbar */
     .home .navCont{
@@ -343,7 +343,7 @@
         /* start coockies */ 
         .coockies-container .item
         {
-            width: 100%;
+            width: 50%;
         }
         /* end coockies */ 
     /* start info */
@@ -400,7 +400,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 767px) and (max-width:1000px)
 {
     /* Start navbar */
     .home .navCont{
@@ -561,7 +561,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px)
+@media only screen and (min-width: 1000px) and (max-width:1200px)
 {
 
     /* start home */
@@ -693,7 +693,7 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px) and (max-width:1420px)
 {
     /*start home */
     .home .homePage .wellcome {

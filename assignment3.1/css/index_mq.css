@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 575.98px)
 {
     /* Start navbar */
     .home .navCont{
@@ -182,7 +182,7 @@
     /* start details */
     .top-details-bg
     {
-        height: 200%;
+        height: 220%;
         width: 100%;
     }
     .details .top-details .col1 {
@@ -200,7 +200,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width:767px)
+@media only screen and (min-width: 576px) and (max-width: 767.98px) 
 {
     /* Start navbar */
     .home .navCont{
@@ -400,7 +400,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 767px) and (max-width:1000px)
+@media only screen and (min-width: 768px) and (max-width: 991.98px)
 {
     /* Start navbar */
     .home .navCont{
@@ -546,7 +546,7 @@
     /* start detalis */
     .details .top-details
     {
-        height: 200%;
+        height: 170%;
     }
     .details .top-details .col1
     {
@@ -561,7 +561,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1000px) and (max-width:1200px)
+@media only screen and (min-width: 992px) and (max-width: 1199.98px)
 {
 
     /* start home */
@@ -693,7 +693,7 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (max-width:1420px)
+@media only screen and (min-width: 1200px)
 {
     /*start home */
     .home .homePage .wellcome {

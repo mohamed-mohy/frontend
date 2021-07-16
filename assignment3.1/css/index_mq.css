@@ -1,0 +1,757 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575.98px)
+{
+    /* Start navbar */
+    .home .navCont{
+        background-color:rgba(0, 0, 0, 0.5);
+        
+    }
+    .home .navbar .links ul 
+    {
+        position: static;
+        display: none;
+    }
+
+    .home .navbar .links ul li {
+        margin-bottom: 1px;
+    }
+    
+    .links ul li, .home .navbar .links ul li a {
+        width: 100%;
+        
+    }
+
+    .home .navbar .links .show-menu {
+        display:block;
+        position: absolute;
+        top: 0;
+        right: 10%
+    }
+    .show-menu img{
+        width: 40px;
+    }
+    .home .navbar .logo img
+    {
+        width: 50%;
+    }
+    /* End navbar */
+    /* Start home */
+    .home{
+        height:600px;
+    }
+    .home .homePage {
+        width: 100%;
+    }
+    .home .homePage .wellcome
+    {
+        font-size: 20px;
+    }
+    .home .homePage h1
+    {
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .home .homePage .description {
+        font-size: 17px;
+        padding-bottom: 40px;
+        line-height: 38px;
+    }
+    .home .homePage .mouse {
+        margin-top: 20%;
+    }
+    .home .homePage .btn-trans ,.home .homePage .btn-gold
+    {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    /* end home */
+    /* Start about */
+
+    .about .img-about
+    {
+        float: none;
+        width: 100%;
+    }
+    .about .img-about img
+    {
+        padding: 70px 0 20px 0 ;
+    }
+    .about .about-content{
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+        
+    }
+    .about .about-content h2
+    {
+        font-size: 25;
+        padding-bottom: 20px;
+    }
+    .about .about-content p 
+    {
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 20px;    
+    }
+    .about .about-content li
+    {
+        padding: 10px;
+    }
+    /* end about */
+    /* Start Location */
+    .location .location-content h2 
+    {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .location .location-content p {
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .location .location-content {
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .location .location-img {
+        float: right;
+        width: 100%;
+        padding-bottom: 100px;
+        padding-top: 0;
+    }
+    /* end location */
+    /* start baking */ 
+    .baking h2
+    {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .baking .baking-dec {
+        padding-bottom: 40px;
+    }
+    .baking p
+    {
+        line-height: 25px;
+    }
+    .baking .meal {
+        width: 100%;
+        float: left;
+    }
+    /*end baking */
+    .coockies-container .item
+    {
+        width: 100%;
+    }
+    /* start coockies */
+
+    /* end coockies */
+    /* start info */
+    .info .contect-info {
+        float: none;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info .contect-info h2
+    {
+        font-size: 25px;
+        padding-bottom: 10px;   
+    }
+    .info .contect-info p
+    {
+        line-height: 25px;
+        padding-bottom: 10px;  
+    }
+    .info .contect-info li {
+        padding: 10px;
+    }
+    .info .map-info{
+        width: 100%;
+        padding-bottom: 80px;
+        padding-top: 10px;
+    }
+    .info .map-info iframe 
+    {
+        width: 100%;
+        height: 50%;
+    }
+    /*end info */
+    /* start details */
+    .details .top-details .col1 {
+        width: 100%;
+        float: left;
+        padding: 20px 0 0 0;
+    }
+
+    .details .top-details .col4 {
+        width: 100%;
+        float: left;
+        padding: 20px 0 0 0;
+    }
+    /*end details */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) 
+{
+    /* Start navbar */
+    .home .navCont{
+        background-color:rgba(0, 0, 0, 0.5);
+        
+    }
+    .home .navbar .links ul 
+    {
+        position: static;
+        display: none;
+    }
+
+    .home .navbar .links ul li {
+        margin-bottom: 1px;
+    }
+    
+    .links ul li, .home .navbar .links ul li a {
+        width: 100%;
+        
+    }
+
+    .home .navbar .links .show-menu {
+        display:block;
+        position: absolute;
+        top: 0;
+        right: 10%
+    }
+    .show-menu img{
+        width: 40px;
+    }
+    .home .navbar .logo img
+    {
+        width: 50%;
+    }
+    /* End navbar */
+    /* Start home */
+    .home{
+        height:600px;
+    }
+    .home .homePage {
+        width: 100%;
+    }
+    .home .homePage .wellcome
+    {
+        font-size: 20px;
+    }
+    .home .homePage h1
+    {
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .home .homePage .description {
+        font-size: 17px;
+        padding-bottom: 40px;
+        line-height: 38px;
+    }
+    .home .homePage .mouse {
+        margin-top: 20%;
+    }
+    .home .homePage .btn-trans ,.home .homePage .btn-gold
+    {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    /* end home */
+    /* Start about */
+    .about .img-about
+    {
+        float: none;
+        width: 100%;
+    }
+    .about .img-about img
+    {
+        padding: 70px 0 20px 0 ;
+    }
+    .about .about-content{
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .about .about-content h2
+    {
+        font-size: 25;
+        padding-bottom: 20px;
+    }
+    .about .about-content p 
+    {
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 20px;    
+    }
+    .about .about-content li
+    {
+        padding: 10px;
+    }
+    /* end about */
+    /* Start Location */
+
+
+    .location .location-content h2 
+    {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .location .location-content p {
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .location .location-content {
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .location .location-img {
+        float: right;
+        width: 100%;
+        padding-bottom: 100px;
+        padding-top: 0;
+    }
+    /* end location */
+    /* start baking */ 
+    .baking h2
+    {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .baking .baking-dec {
+        padding-bottom: 40px;
+    }
+    .baking p
+    {
+        line-height: 25px;
+    }
+    .baking .meal {
+        width: 100%;
+        float: left;
+    }
+    /*end baking */
+        /* start coockies */ 
+        .coockies-container .item
+        {
+            width: 50%;
+        }
+        .coockies-container .item  p
+        {
+            font-size: 15px;
+            padding: 15px;
+        }
+        /* end coockies */ 
+    /* start info */
+
+    .info .contect-info {
+        float: none;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info .contect-info h2
+    {
+        font-size: 25px;
+        padding-bottom: 10px;   
+    }
+    .info .contect-info p
+    {
+        line-height: 25px;
+        padding-bottom: 10px;  
+    }
+    .info .contect-info li {
+        padding: 10px;
+    }
+    .info .map-info{
+        width: 100%;
+        padding-bottom: 80px;
+        padding-top: 10px;
+    }
+    .info .map-info iframe 
+    {
+        width: 100%;
+        height: 50%;
+    }
+    /*end info */
+    /* start details */
+    .details .top-details .col1 {
+        width: 100%;
+        float: left;
+        padding: 20px 0 0 0;
+    }
+
+    .details .top-details .col4 {
+        width: 100%;
+        float: left;
+        padding: 20px 0 0 0;
+    }
+    /*end details */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px)
+{
+    /* Start navbar */
+    .home .navCont{
+        background-color:rgba(0, 0, 0, 0.5);
+        
+    }
+    .home .navbar .links ul 
+    {
+        position: static;
+        display: none;
+    }
+
+    .home .navbar .links ul li {
+        margin-bottom: 1px;
+    }
+    
+    .links ul li, .home .navbar .links ul li a {
+        width: 100%;
+        
+    }
+
+    .home .navbar .links .show-menu {
+        display:block;
+        position: absolute;
+        top: 0;
+        right: 10%
+    }
+    .show-menu img{
+        width: 40px;
+    }
+    .home .navbar .logo img
+    {
+        width: 50%;
+    }
+    /* End navbar */
+    /* Start home */
+    .home{
+        height:700px;
+    }
+    .home .homePage{
+        width: 80%;
+    }
+    .home .homePage .wellcome {
+        font-size: 18px;
+    }
+    .home .homePage h1 {
+        font-size: 55px;
+        padding-bottom: 15px;
+    }
+    .home .homePage .description {
+        font-size: 18px;
+        padding-bottom:15px;
+        line-height: 35px;
+    }
+    .home .homePage .btn-gold ,.home .homePage .btn-trans
+    {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .home .homePage .mouse {
+        margin-top: 20%;
+    }
+    /* end home */ 
+    /* start about */
+    .about .img-about {
+        width:100%;
+        
+    }
+    .about .img-about img {
+        width: 100%;
+    }
+    .about .about-content {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .about .about-content h2 {
+        font-size: 28px;
+        padding-bottom: 22px;
+    }
+    .about .about-content p {
+        line-height: 35px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    .about .about-content li {
+        padding: 15px;
+        font-size: 12px;
+    }
+    /* end about */
+    /* start location */
+
+    .location .location-content
+    {
+        width: 100%;
+        padding-top: 10%;
+    }
+    .location .location-img
+    {
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .location .location-content p
+    {
+        font-size: 12px;
+    }
+    /* end location */
+    /* start baking */
+    .baking .meal
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .baking .baking-dec
+    {
+        font-size: 25px;
+    }
+
+    /* end baking */
+
+    /* start coockies */ 
+    .coockies-container .item
+    {
+        width: 50%;
+    }
+    .coockies-container .item  p
+    {
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* end coockies */ 
+
+    /* start info */
+
+    .info .contect-info
+    {
+        width: 100%;
+        padding-top: 5%;
+    }
+    .info .map-info
+    {
+        width: 100%;
+        padding-top: 5%;
+    }
+    /* end info */
+    /* start detalis */
+
+    .details .top-details .col1
+    {
+        width: 100%;
+    }
+    .details .top-details .col4
+    {
+        width: 100%;
+    }
+    /*end detalis */ 
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px)
+{
+
+    /* start home */
+    .home .homePage .wellcome
+    {
+        font-size :20px ;
+    }
+    .home .homePage h1
+    {
+        font-size: 60px;
+    }
+    .home .homePage .description 
+    {
+        font-size: 22px;
+        padding-bottom: 20px;
+        line-height: 35px;
+    }
+    .home .homePage .btn-gold
+    {
+        font-size: 14px;
+        padding: 12px 22px;
+
+    }
+    .home .homePage .btn-trans
+    {
+        font-size: 14px;
+        padding: 12px 22px;
+    }
+    .home .homePage .mouse
+    {
+        margin-top: 15%;
+
+    }
+    /* start about */
+    .home{
+        height:800px;
+    }
+    .about .img-about
+    {
+        width: 45%;
+    }
+    .about .about-content
+    {
+        padding: 10% 0;
+    }
+    .about .about-content h2 
+    {
+        font-size: 28px;
+    }
+    .about .about-content p {
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .about .about-content li {
+        padding: 10px;
+    }
+    .about .img-about img {
+        padding: 50% 0;
+    }
+    /* end about */
+    /* start location */
+    .location .location-content
+    {
+        padding-top: 10%;
+    }
+    .location .location-img {
+        padding-top: 20%;
+    }
+    .location .location-content h2
+    {
+        font-size: 28px;
+    }
+    .location .location-content p
+    {
+        line-height: 30px;
+        padding-bottom: 20px;
+        font-size: 12px
+    }
+
+    /* end location */
+    /* start baking */
+
+    .baking h2
+    {
+        font-size: 28px;
+    }
+    .baking .baking-dec 
+    {
+        padding-bottom: 45px;
+    }
+    .baking p 
+    {
+        line-height: 25px;
+    }
+    .baking .meal h3
+    {
+        font-size: 18px;
+        padding: 15px;
+    }
+    /* end baking */
+    /* start details */
+    .details .top-details .col1
+    {
+        width: 19%;
+    }
+
+    .details .top-details .col1 h4, .details .top-details .col4 h4 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    }
+    .details .top-details .col4
+    {
+        width: 19%;
+    }
+    .details .top-details .col1 p, .details .top-details .col4 p {
+        line-height: 22px;
+        padding-bottom: 15px;
+        font-size: 13px;
+    }
+    .details .top-details .col4 li {
+        padding: 5px 5px 12px 7px;
+        font-size: 15px;
+    }
+    .details .top-details .col1 li
+    {
+        padding: 5px 5px 12px 7px;
+        font-size: 15px;   
+    }
+    /* end details */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+    /*start home */
+    .home .homePage .wellcome {
+        font-size: 22px;
+    }
+    .home .homePage h1 {
+        font-size: 72px;
+        padding-bottom: 20px;
+    }
+    .home .homePage .description {
+        font-size: 21px;
+        padding-bottom: 22px;
+        line-height: 40px;
+    }
+    .home .homePage .btn-gold
+    {
+        font-size: 14px;
+        padding: 13px 23px;
+    }
+    .home .homePage .btn-trans
+    {
+        font-size: 14px;
+        padding: 13px 23px;
+    }
+    .home .homePage .mouse {
+        margin-top: 15%;
+    }
+    /* end home */
+    /* start about */
+    .about .img-about {
+        width: 49%;
+        padding-top: 15%;
+    }
+    .about .about-content
+    {
+        margin: 0;
+        padding: 0;
+        padding-top: 22%;
+    }
+    /*end about */
+    /* start location */
+    .location .location-content
+    {
+        padding-top: 15%;
+    }
+    .location .location-img
+    {
+        padding-top: 15%;
+    }
+    /* end location */
+    /* start baking */
+    .baking{
+        padding-top: 7%;
+    }
+    /* end baking */
+
+    .details .top-details .col1 {
+        width: 20%
+    }
+    /* end datelis */
+}

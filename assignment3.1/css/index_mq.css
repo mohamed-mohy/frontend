@@ -661,20 +661,22 @@
         padding: 15px;
     }
     /* end baking */
-    /* start details */
-    .details .top-details .col1
+    /*start coockies */
+
+    .coockies-container .item p 
     {
-        width: 19%;
+        font-size: 12px;
+        padding: 10px;
     }
+
+    /* start details */
+
 
     .details .top-details .col1 h4, .details .top-details .col4 h4 {
     font-size: 15px;
     padding-bottom: 20px;
     }
-    .details .top-details .col4
-    {
-        width: 19%;
-    }
+
     .details .top-details .col1 p, .details .top-details .col4 p {
         line-height: 22px;
         padding-bottom: 15px;
@@ -750,8 +752,6 @@
     }
     /* end baking */
 
-    .details .top-details .col1 {
-        width: 20%
-    }
+
     /* end datelis */
 }

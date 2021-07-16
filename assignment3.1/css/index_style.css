@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    
+    box-sizing: border-box;
 }
 body{
     font-family:"Alegreya Sans", "segoe ui light";
@@ -114,8 +114,9 @@ img
 }
 .home .icons
 {
+    height: 100px;
     background-color:rgb(219, 219, 219);
-    width: 40px;
+    width: 50px;
     position: fixed;
     top:30%;
     right: 0;
@@ -127,7 +128,7 @@ img
 }
 .home .icons img
 {
-    width: 20px;
+    width: 100%;
     display: block;
     padding: 10px;
     
@@ -205,7 +206,6 @@ img
 /** Start About **/
 .about
 {
-    height: 100vh;
     width: 80%;
     margin: auto;
 
@@ -258,17 +258,19 @@ text-align: left;
 .location
 {
     width: 80%;
-    height: 85vh;
     margin: auto;
 }
 .location-bg{
     background-color: #f8f8f8;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 100px;
 }
 .location .location-content
 {
     float: left;
     width: 45%;
-    padding-top: 200px;
+    padding-top:150px;
 }
 .location .location-content h2
 {
@@ -298,13 +300,13 @@ text-align: left;
 .baking
 {
     width: 80%;
-    height: 100vh;
     text-align: center;
     margin: auto;
 
 }
 .baking h2
 {
+    padding-top: 50px;
     font-size: 32px;
     color: #303030;
     padding-bottom: 30px; 
@@ -325,6 +327,7 @@ text-align: left;
 {
     width: 33.33%;
     float:left ;
+    padding-bottom: 50px;
 }
 .baking .meal h3
 {
@@ -344,11 +347,12 @@ text-align: left;
 /** start coockies **/
 .coockies-bg{
     background-color: #f8f8f8;
-
+    width: 100%;
+    display: inline-block;
+    padding: 50px 0;
 }
 .coockies-container
 {
-    height: 50vh;
     width: 80%;
     margin: auto;
 }
@@ -445,8 +449,6 @@ text-align: left;
 .info
 {
     width: 80%;
-    height: 85vh;
-
     margin: auto;
 }
 .info-bg
@@ -494,25 +496,28 @@ text-align: left;
 {
     width: 100%;
     height: 500px;
+    padding-bottom: 50px;
 }
 /** End Info **/
 /** Start Details **/
-
+.top-details-bg
+{
+    background-color: #403d38;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0;
+}
 .details .top-details 
 {
     
-    height: 60vh;
     width: 80%;
     color: #fff;
     margin: auto;
 }
-.top-details-bg
-{
-    background-color: #403d38;
-}
+
 .details .top-details .col1
 {
-    width: 21%;
+    width: 25%;
     float: left;
     padding: 20px;
 }
@@ -553,7 +558,7 @@ text-align: left;
     background-image: url(../images/contact-details-map.png);
     background-repeat: no-repeat;
     background-position: bottom center;
-    width: 22%;
+    width: 25%;
     float: left;
     padding: 20px;
 }
@@ -580,7 +585,6 @@ text-align: left;
 }
 .details .bottom-details 
 {
-    height: 40vh;
     text-align: center;
     width: 80%;
     color: #969696;

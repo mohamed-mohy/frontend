@@ -66,10 +66,7 @@
     }
     /* end home */
     /* Start about */
-    .about
-    {
-        height: 800px;
-    }
+
     .about .img-about
     {
         float: none;
@@ -105,13 +102,6 @@
     }
     /* end about */
     /* Start Location */
-    .location
-    {
-        height: 1500px;
-    }
-    .location-bg{
-        height: 100vh;
-    }
     .location .location-content h2 
     {
         font-size: 25px;
@@ -160,9 +150,6 @@
 
     /* end coockies */
     /* start info */
-    .info-bg{
-        height: 100vh;
-    }
     .info .contect-info {
         float: none;
         width: 100%;
@@ -193,11 +180,6 @@
     }
     /*end info */
     /* start details */
-    .top-details-bg
-    {
-        height: 220%;
-        width: 100%;
-    }
     .details .top-details .col1 {
         width: 100%;
         float: left;
@@ -280,10 +262,6 @@
     }
     /* end home */
     /* Start about */
-    .about
-    {
-        height: 800px;
-    }
     .about .img-about
     {
         float: none;
@@ -318,13 +296,8 @@
     }
     /* end about */
     /* Start Location */
-    .location
-    {
-        height: 1500px;
-    }
-    .location-bg{
-        height: 100vh;
-    }
+
+
     .location .location-content h2 
     {
         font-size: 25px;
@@ -370,11 +343,14 @@
         {
             width: 50%;
         }
+        .coockies-container .item  p
+        {
+            font-size: 15px;
+            padding: 15px;
+        }
         /* end coockies */ 
     /* start info */
-    .info-bg{
-        height: 100vh;
-    }
+
     .info .contect-info {
         float: none;
         width: 100%;
@@ -405,11 +381,6 @@
     }
     /*end info */
     /* start details */
-    .top-details-bg
-    {
-        height: 200%;
-        width: 100%;
-    }
     .details .top-details .col1 {
         width: 100%;
         float: left;
@@ -490,10 +461,6 @@
     }
     /* end home */ 
     /* start about */
-    .about
-    {
-        height: 800px;
-    }
     .about .img-about {
         width:100%;
         
@@ -515,17 +482,15 @@
     .about .about-content p {
         line-height: 35px;
         padding-bottom: 20px;
+        font-size: 12px;
     }
     .about .about-content li {
         padding: 15px;
+        font-size: 12px;
     }
     /* end about */
     /* start location */
-    .location
-    {
-        height: 1500px;
-    }
-    
+
     .location .location-content
     {
         width: 100%;
@@ -537,12 +502,20 @@
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    .location .location-content p
+    {
+        font-size: 12px;
+    }
     /* end location */
     /* start baking */
     .baking .meal
     {
         width: 100%;
         text-align: center;
+    }
+    .baking .baking-dec
+    {
+        font-size: 25px;
     }
 
     /* end baking */
@@ -552,13 +525,15 @@
     {
         width: 50%;
     }
+    .coockies-container .item  p
+    {
+        font-size: 15px;
+        padding: 15px;
+    }
     /* end coockies */ 
 
     /* start info */
-    .info
-    {
-        height: 150%;
-    }
+
     .info .contect-info
     {
         width: 100%;
@@ -571,10 +546,7 @@
     }
     /* end info */
     /* start detalis */
-    .details .top-details
-    {
-        height: 170%;
-    }
+
     .details .top-details .col1
     {
         width: 100%;
@@ -623,6 +595,9 @@
 
     }
     /* start about */
+    .home{
+        height:800px;
+    }
     .about .img-about
     {
         width: 45%;
@@ -662,14 +637,12 @@
     {
         line-height: 30px;
         padding-bottom: 20px;
+        font-size: 12px
     }
 
     /* end location */
     /* start baking */
-    .baking{
-        padding-top: 5%;
-        height: 80vh
-    }
+
     .baking h2
     {
         font-size: 28px;
@@ -776,10 +749,7 @@
         padding-top: 7%;
     }
     /* end baking */
-    /* start detalis */ 
-    .details .top-details {
-        height: 70vh;
-    }
+
     .details .top-details .col1 {
         width: 20%
     }
